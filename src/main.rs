@@ -3,7 +3,7 @@
 use cpu::CPU;
 
 mod cpu;
-mod instructions;
+mod bootstrap;
 
 #[macro_use]
 extern crate bitflags;
