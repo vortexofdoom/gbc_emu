@@ -1,0 +1,33 @@
+// pub enum Instruction {
+//     CB,
+//     HALT,
+//     DI,
+//     EI,
+//     DAA,
+//     Add(Operand, bool),
+//     Sub(Operand, bool),
+//     Ld(Operand, Operand),
+//     NOP,
+//     STOP,
+//     Inc(Operand),
+//     Dec(Operand),
+//     And(Operand), 
+// }
+
+pub enum Operand {
+    D8,
+    U16(u16),
+    A,
+    B,
+    C,
+    D,
+    E,
+    H,
+    L,
+    AF,
+    BC,
+    DE,
+    HL,
+    SP,
+    PC,
+}
